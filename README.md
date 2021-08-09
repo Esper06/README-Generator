@@ -2,6 +2,8 @@
 
 # Screenshot Of Project
 
+<img src="./assets/images/Capture.JPG" alt="a screenshot of the project in use">
+
 # Description
 
 A terminal based program that will ask the user various questions based on their work and will make a README file from their inputs.
