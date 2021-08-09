@@ -4,6 +4,10 @@
 
 <img src="./assets/images/Capture.JPG" alt="a screenshot of the project in use">
 
+# Video of Project
+
+<a href="https://drive.google.com/file/d/1wBGZC5GxYp3yN8lRdhfo19cBFmpqnbZ8/view" alt="a video of the project in action">Link to video</a>
+
 # Description
 
 A terminal based program that will ask the user various questions based on their work and will make a README file from their inputs.
