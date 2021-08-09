@@ -167,7 +167,7 @@ ${badge}
 1) [Description](#description)
 2) [Installation](#installation)
 3) [Usage](#usage)
-4) [Questions?](#questions?)
+4) [Questions](#questions)
 5) [How To Contribute](#contributions)
 5) [License](#license)
 
@@ -183,7 +183,7 @@ ${data.install}
     
 ${data.usage}
     
-## Questions?
+## Questions
     
 If you have any questions please contact me here:
 
