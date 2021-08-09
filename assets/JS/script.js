@@ -137,19 +137,39 @@ For more information, please refer to <https://unlicense.org>`
     }
 
 
+
+    var badge
+    switch(data.license) {
+        case 'MIT': 
+            badge = `[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)`
+            break;
+        case 'Apache':
+            badge = `[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)`
+            break;
+        case 'GNU GPLv3':
+            badge = `[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)`
+            break;
+        case 'Unlicense':
+            badge = `[![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)`
+    }
+
+
+
     //this is the content of the README that is being made. Certain parts are to be filled in with the users responses to the above questions
     const content = 
     
 `# ${data.title}
 
+${badge}
+
 ## List of Contents
 
-1) Description
-2) Installation
-3) Usage
-4) Quesions?
-5) How To Contribute
-5) License
+1) [Description](#description)
+2) [Installation](#installation)
+3) [Usage](#usage)
+4) [Questions?](#questions?)
+5) [How To Contribute](#contributions)
+5) [License](#license)
 
 ## Description
     
